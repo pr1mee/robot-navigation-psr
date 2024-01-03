@@ -1,0 +1,24 @@
+[2.034s] Invoking command in '/home/imnotarobot/ros2_ws/src/py_trees_ros': PYTHONPATH=/home/imnotarobot/ros2_ws/build/py_trees_ros/prefix_override:/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/imnotarobot/ros2_ws/build/py_trees_ros/build install --record /home/imnotarobot/ros2_ws/build/py_trees_ros/install.log --single-version-externally-managed
+[2.294s] running egg_info
+[2.294s] writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO
+[2.294s] writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt
+[2.295s] writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt
+[2.295s] writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt
+[2.298s] reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.299s] adding license file 'LICENSE'
+[2.300s] writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.300s] running build
+[2.300s] running build_py
+[2.303s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.303s]   warnings.warn(
+[2.303s] running install
+[2.303s] running install_lib
+[2.304s] running install_data
+[2.304s] running install_egg_info
+[2.304s] removing '/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info' (and everything under it)
+[2.304s] Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info
+[2.305s] running install_scripts
+[2.326s] Installing py-trees-blackboard-watcher script to /home/imnotarobot/ros2_ws/install/py_trees_ros/bin
+[2.326s] Installing py-trees-tree-watcher script to /home/imnotarobot/ros2_ws/install/py_trees_ros/bin
+[2.327s] writing list of installed files to '/home/imnotarobot/ros2_ws/build/py_trees_ros/install.log'
+[2.453s] Invoked command in '/home/imnotarobot/ros2_ws/src/py_trees_ros' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/py_trees_ros/prefix_override:/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/imnotarobot/ros2_ws/build/py_trees_ros/build install --record /home/imnotarobot/ros2_ws/build/py_trees_ros/install.log --single-version-externally-managed

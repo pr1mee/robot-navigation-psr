@@ -1,0 +1,4 @@
+source;share/kelo_tulip/local_setup.bash
+source;share/kelo_tulip/local_setup.dsv
+source;share/kelo_tulip/local_setup.sh
+source;share/kelo_tulip/local_setup.zsh

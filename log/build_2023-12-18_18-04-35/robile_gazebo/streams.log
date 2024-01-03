@@ -1,0 +1,33 @@
+[0.215s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_gazebo -- -j12 -l12
+[0.374s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_gazebo -- -j12 -l12
+[0.395s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_gazebo
+[0.402s] -- Install configuration: ""
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config/rviz
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_foxy_nav.rviz
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config/rviz/robile.rviz
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config/doxygen
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in
+[0.402s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//launch
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//worlds
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//worlds/potential_field_gazebo.world
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo//worlds/closed_walls.world
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/environment/path.sh
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/environment/path.dsv
+[0.403s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/local_setup.bash
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/local_setup.sh
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/local_setup.zsh
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/local_setup.dsv
+[0.404s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.dsv
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake
+[0.404s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.xml
+[0.405s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_gazebo

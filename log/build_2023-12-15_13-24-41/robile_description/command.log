@@ -1,0 +1,6 @@
+Invoking command in '/home/imnotarobot/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/imnotarobot/ros2_ws/src/robile_description -DCMAKE_INSTALL_PREFIX=/home/imnotarobot/ros2_ws/install/robile_description
+Invoked command in '/home/imnotarobot/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/imnotarobot/ros2_ws/src/robile_description -DCMAKE_INSTALL_PREFIX=/home/imnotarobot/ros2_ws/install/robile_description
+Invoking command in '/home/imnotarobot/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_description -- -j12 -l12
+Invoked command in '/home/imnotarobot/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_description -- -j12 -l12
+Invoking command in '/home/imnotarobot/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_description
+Invoked command in '/home/imnotarobot/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_description

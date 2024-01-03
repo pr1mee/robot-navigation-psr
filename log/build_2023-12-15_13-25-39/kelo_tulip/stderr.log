@@ -1,0 +1,89 @@
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatconfig.c:[m[K In function ‘[01m[Kecx_config_find_mappings[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatconfig.c:864:16:[m[K [01;35m[Kwarning: [m[KISO C forbids passing argument 3 of ‘[01m[Kosal_thread_create[m[K’ between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  864 |                [01;35m[K&ecx_mapper_thread[m[K, &(ecx_mapt[thrn]));
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatconfig.c:16[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:48:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid *[m[K’ but argument is of type ‘[01m[Kvoid (*)(void *)[m[K’
+   48 | int osal_thread_create(void *thandle, int stacksize, [01;36m[Kvoid *func[m[K, void *param);
+      |                                                      [01;36m[K~~~~~~^~~~[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatfoe.c:[m[K In function ‘[01m[Kecx_FOEdefinehook[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatfoe.c:56:20:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   56 |   context->FOEhook [01;35m[K=[m[K hook;
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercat.h:22[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatmain.c:22[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h:166:10:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  166 |    uint8 [01;35m[Kdata[m[K[0];
+      |          [01;35m[K^~~~[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatmain.c:323:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  323 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/ethercatmain.c:2048:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 2048 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:[m[K In function ‘[01m[Kosal_thread_create[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:111:41:[m[K [01;35m[Kwarning: [m[KISO C forbids passing argument 3 of ‘[01m[Kpthread_create[m[K’ between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  111 |    ret = pthread_create(threadp, &attr, [01;35m[Kfunc[m[K, param);
+      |                                         [01;35m[K^~~~[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h:20[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:14[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:11[m[K:
+[01m[K/usr/include/pthread.h:204:36:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid * (*)(void *)[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+  204 |                            [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+      |                            [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:[m[K In function ‘[01m[Kosal_thread_create_rt[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:129:41:[m[K [01;35m[Kwarning: [m[KISO C forbids passing argument 3 of ‘[01m[Kpthread_create[m[K’ between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  129 |    ret = pthread_create(threadp, &attr, [01;35m[Kfunc[m[K, param);
+      |                                         [01;35m[K^~~~[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h:20[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:14[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:11[m[K:
+[01m[K/usr/include/pthread.h:204:36:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid * (*)(void *)[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+  204 |                            [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+      |                            [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/EtherCATModule.h:48[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/EtherCATModule.cpp:44[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  487 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/PlatformDriver.h:49[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:44[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  487 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/EtherCATModule.h:48[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h:48[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:45[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  487 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/PlatformDriver.h:49[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriverROS.cpp:44[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  487 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:[m[K In member function ‘[01m[Kvirtual bool kelo::RobileMasterBattery::step()[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:87:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinput[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   87 |         RobileMasterBatteryProcessDataInput* [01;35m[Kinput[m[K = (RobileMasterBatteryProcessDataInput*) ecx_slaves[slaveNumber].inputs;
+      |                                              [01;35m[K^~~~~[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:[m[K In member function ‘[01m[Kvoid kelo::RobileMasterBattery::shutdown(int)[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:141:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kseconds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  141 | void RobileMasterBattery::shutdown([01;35m[Kint seconds[m[K) {
+      |                                    [01;35m[K~~~~^~~~~~~[m[K
+In file included from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercat.h:22[m[K,
+                 from [01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:48[m[K:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h:166:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  166 |    uint8 data[[01;35m[K0[m[K];
+      |               [01;35m[K^[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:[m[K In member function ‘[01m[Kvoid kelo::PlatformDriver::reconnectSlave(int)[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:346:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kslave[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  346 | void PlatformDriver::reconnectSlave([01;35m[Kint slave[m[K) {
+      |                                     [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:[m[K In member function ‘[01m[Kvoid kelo::PlatformDriver::ethercatHandler()[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:514:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kok[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  514 |                         bool [01;35m[Kok[m[K = modules[i]->step();
+      |                              [01;35m[K^~[m[K
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:[m[K In member function ‘[01m[Kstd::vector<double> kelo::PlatformDriver::getEncoderValue(unsigned int)[m[K’:
+[01m[K/home/imnotarobot/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:547:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  547 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

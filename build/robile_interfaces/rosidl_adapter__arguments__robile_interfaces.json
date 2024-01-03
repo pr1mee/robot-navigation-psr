@@ -1,0 +1,7 @@
+{
+  "package_name": "robile_interfaces",
+  "non_idl_tuples": [
+    "/home/imnotarobot/ros2_ws/src/robile_interfaces:msg/PositionLabelled.msg",
+    "/home/imnotarobot/ros2_ws/src/robile_interfaces:msg/PositionLabelledArray.msg"
+  ]
+}

@@ -1,0 +1,103 @@
+[0.061s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': AMENT_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/imnotarobot/ros2_ws/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/imnotarobot/ros2_ws/install/robile_navigation
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.459s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.494s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.505s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.532s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.659s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.679s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.715s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.723s] -- Looking for pthread.h
+[0.770s] -- Looking for pthread.h - found
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.821s] -- Found Threads: TRUE  
+[0.955s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.957s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.064s] -- Found robile_interfaces: 0.0.0 (/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake)
+[1.136s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.246s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.246s] -- Added test 'lint_cmake' to check CMake code style
+[1.247s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.249s] -- Added test 'xmllint' to check XML markup files
+[1.250s] -- Configuring done
+[1.254s] -- Generating done
+[1.255s] -- Build files have been written to: /home/imnotarobot/ros2_ws/build/robile_navigation
+[1.263s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': AMENT_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/imnotarobot/ros2_ws/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/imnotarobot/ros2_ws/install/robile_navigation
+[1.264s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': AMENT_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_navigation -- -j12 -l12
+[1.303s] Built target ament_cmake_python_copy_robile_navigation
+[1.510s] running egg_info
+[1.510s] creating robile_navigation.egg-info
+[1.511s] writing robile_navigation.egg-info/PKG-INFO
+[1.511s] writing dependency_links to robile_navigation.egg-info/dependency_links.txt
+[1.511s] writing top-level names to robile_navigation.egg-info/top_level.txt
+[1.511s] writing manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[1.512s] reading manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[1.513s] writing manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[1.533s] Built target ament_cmake_python_build_robile_navigation_egg
+[1.541s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': AMENT_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_navigation -- -j12 -l12
+[1.556s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': AMENT_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_navigation
+[1.561s] -- Install configuration: ""
+[1.561s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch
+[1.561s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/navigation.launch.py
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/robile_nav2_bringup.launch.py
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/localization.launch.py
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/online_async.launch.py
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/landmark_based_localisation.launch.py
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/nav2_params.yaml
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/smacPlannerLattice.json
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/mapper_params_online_async.yaml
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/robile_nav_params.yaml
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/amcl_config.yaml
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/robile_ros2_nav.rviz
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map.yaml
+[1.562s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/closed_walls_map.pgm
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map.pgm
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/closed_walls_map.yaml
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/pythonpath.sh
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/pythonpath.dsv
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation
+[1.563s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation/__init__.py
+[1.587s] Listing '/home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation'...
+[1.588s] Compiling '/home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation/__init__.py'...
+[1.591s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/lib/robile_navigation/robile_rfid_tag_finder.py
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/ament_index/resource_index/package_run_dependencies/robile_navigation
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/ament_index/resource_index/parent_prefix_path/robile_navigation
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/ament_prefix_path.sh
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/ament_prefix_path.dsv
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/path.sh
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/path.dsv
+[1.592s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.bash
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.sh
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.zsh
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.dsv
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.dsv
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/ament_index/resource_index/packages/robile_navigation
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/cmake/robile_navigationConfig.cmake
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/cmake/robile_navigationConfig-version.cmake
+[1.593s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.xml
+[1.596s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': AMENT_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_navigation

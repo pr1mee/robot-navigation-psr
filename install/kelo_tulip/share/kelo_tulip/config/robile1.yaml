@@ -1,0 +1,13 @@
+platform_driver:
+  ros__parameters:
+    num_wheels: 1
+    num_masters: 1
+    device: eno1
+    
+    wheel0:
+      ethercat_number: 3
+      x: 0.233
+      y: 0.0
+      a: -2.8
+      reverse_velocity: 1
+      critical: 0

@@ -1,0 +1,22 @@
+[1.993s] Invoking command in '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_bringup/prefix_override:/home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/imnotarobot/ros2_ws/build/robile_bringup/build install --record /home/imnotarobot/ros2_ws/build/robile_bringup/install.log --single-version-externally-managed
+[2.238s] running egg_info
+[2.239s] writing ../../../build/robile_bringup/robile_bringup.egg-info/PKG-INFO
+[2.239s] writing dependency_links to ../../../build/robile_bringup/robile_bringup.egg-info/dependency_links.txt
+[2.239s] writing entry points to ../../../build/robile_bringup/robile_bringup.egg-info/entry_points.txt
+[2.240s] writing requirements to ../../../build/robile_bringup/robile_bringup.egg-info/requires.txt
+[2.240s] writing top-level names to ../../../build/robile_bringup/robile_bringup.egg-info/top_level.txt
+[2.242s] reading manifest file '../../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[2.243s] writing manifest file '../../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[2.243s] running build
+[2.244s] running build_py
+[2.244s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.245s]   warnings.warn(
+[2.245s] running install
+[2.246s] running install_lib
+[2.247s] running install_data
+[2.248s] running install_egg_info
+[2.249s] removing '/home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[2.250s] Copying ../../../build/robile_bringup/robile_bringup.egg-info to /home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info
+[2.250s] running install_scripts
+[2.268s] writing list of installed files to '/home/imnotarobot/ros2_ws/build/robile_bringup/install.log'
+[2.496s] Invoked command in '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_bringup/prefix_override:/home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/imnotarobot/ros2_ws/build/robile_bringup/build install --record /home/imnotarobot/ros2_ws/build/robile_bringup/install.log --single-version-externally-managed

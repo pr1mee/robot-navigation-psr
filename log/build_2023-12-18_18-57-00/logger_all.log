@@ -1,0 +1,696 @@
+[0.924s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.924s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f010d8853f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f010db76b30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f010db76b30>>)
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.966s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/imnotarobot/ros2_ws'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'colcon_meta'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['ros']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ros'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['cmake', 'python']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'python_setup_py'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'colcon_meta'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['ros']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ros'
+[0.979s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_bringup' with type 'ros.ament_python' and name 'robile_bringup'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['ros']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ros'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['cmake', 'python']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'cmake'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'python'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['python_setup_py']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'python_setup_py'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['ros']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ros'
+[0.981s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_demos/robile_control_simple' with type 'ros.ament_python' and name 'robile_control_simple'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ignore_ament_install'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_pkg']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_pkg'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_meta']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_meta'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['ros']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ros'
+[0.981s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_demos/robile_reach_goal' with type 'ros.ament_python' and name 'robile_reach_goal'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ros'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['cmake', 'python']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'cmake'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'python'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['python_setup_py']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'python_setup_py'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ros'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['cmake', 'python']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'cmake'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'python'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['python_setup_py']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'python_setup_py'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ignore_ament_install'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['colcon_pkg']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ros'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['cmake', 'python']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'cmake'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'python'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['python_setup_py']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'python_setup_py'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ignore_ament_install'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['colcon_pkg']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ros'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['cmake', 'python']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'cmake'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'python'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['python_setup_py']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'python_setup_py'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extension 'colcon_pkg'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extension 'colcon_meta'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/kelo_tulip) by extension 'ros'
+[0.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kelo_tulip' with type 'ros.ament_cmake' and name 'kelo_tulip'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'ignore'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'ignore_ament_install'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_trees_ros' with type 'ros.ament_python' and name 'py_trees_ros'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['colcon_meta']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'colcon_meta'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['ros']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ros'
+[0.987s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_description' with type 'ros.ament_cmake' and name 'robile_description'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['colcon_meta']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ros'
+[0.989s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_gazebo' with type 'ros.ament_cmake' and name 'robile_gazebo'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ignore_ament_install'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['colcon_pkg']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ros'
+[0.990s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_interfaces' with type 'ros.ament_cmake' and name 'robile_interfaces'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ignore_ament_install'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['colcon_meta']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['ros']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ros'
+[0.991s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_navigation' with type 'ros.ament_cmake' and name 'robile_navigation'
+[0.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/imnotarobot/ros2_ws/install
+[1.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 404 installed packages in /opt/ros/humble
+[1.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'cmake_args' from command line to 'None'
+[1.223s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'cmake_target' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'cmake_clean_cache' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'cmake_clean_first' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'cmake_force_configure' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'ament_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'catkin_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'kelo_tulip' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.224s] DEBUG:colcon.colcon_core.verb:Building package 'kelo_tulip' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/kelo_tulip', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/kelo_tulip', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/kelo_tulip', 'symlink_install': False, 'test_result_base': None}
+[1.237s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_args' from command line to 'None'
+[1.237s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_target' from command line to 'None'
+[1.237s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.238s] DEBUG:colcon.colcon_core.verb:Building package 'py_trees_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/py_trees_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/py_trees_ros', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/py_trees_ros', 'symlink_install': False, 'test_result_base': None}
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_args' from command line to 'None'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target' from command line to 'None'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.252s] DEBUG:colcon.colcon_core.verb:Building package 'robile_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_bringup', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_cache' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_first' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_force_configure' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'ament_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.266s] DEBUG:colcon.colcon_core.verb:Building package 'robile_control_simple' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_control_simple', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_control_simple', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple', 'symlink_install': False, 'test_result_base': None}
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_args' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.280s] DEBUG:colcon.colcon_core.verb:Building package 'robile_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_description', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/robile_description', 'symlink_install': False, 'test_result_base': None}
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.294s] DEBUG:colcon.colcon_core.verb:Building package 'robile_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_interfaces', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/robile_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_first' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_force_configure' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'ament_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.307s] DEBUG:colcon.colcon_core.verb:Building package 'robile_reach_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_reach_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_reach_goal', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal', 'symlink_install': False, 'test_result_base': None}
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.321s] DEBUG:colcon.colcon_core.verb:Building package 'robile_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_gazebo', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/robile_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.335s] DEBUG:colcon.colcon_core.verb:Building package 'robile_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imnotarobot/ros2_ws/build/robile_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imnotarobot/ros2_ws/install/robile_navigation', 'merge_install': False, 'path': '/home/imnotarobot/ros2_ws/src/robile_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.349s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/robile_description' with build type 'ament_cmake'
+[1.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imnotarobot/ros2_ws/src/robile_description'
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/robile_interfaces' with build type 'ament_cmake'
+[1.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imnotarobot/ros2_ws/src/robile_interfaces'
+[1.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/kelo_tulip' with build type 'ament_cmake'
+[1.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imnotarobot/ros2_ws/src/kelo_tulip'
+[1.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.541s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/py_trees_ros' with build type 'ament_python'
+[1.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'ament_prefix_path')
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/ament_prefix_path.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/ament_prefix_path.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/ament_prefix_path.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.616s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup' with build type 'ament_python'
+[1.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'ament_prefix_path')
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.sh'
+[1.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.690s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple' with build type 'ament_python'
+[1.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'ament_prefix_path')
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.ps1'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.sh'
+[1.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.761s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal' with build type 'ament_python'
+[1.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'ament_prefix_path')
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.dsv'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.sh'
+[1.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_description -- -j12 -l12
+[1.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_interfaces -- -j12 -l12
+[1.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/kelo_tulip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/kelo_tulip -- -j12 -l12
+[2.074s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imnotarobot/ros2_ws/src/py_trees_ros'
+[2.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.369s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup'
+[2.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.630s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple'
+[2.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.898s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal'
+[2.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_interfaces -- -j12 -l12
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_description -- -j12 -l12
+[2.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/kelo_tulip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/kelo_tulip -- -j12 -l12
+[2.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_description
+[2.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/kelo_tulip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/kelo_tulip
+[2.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[3.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_description
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description' for CMake module files
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description' for CMake config files
+[3.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[3.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/bin'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/lib/pkgconfig/robile_description.pc'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/lib/python3.10/site-packages'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/bin'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.ps1'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.dsv'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.sh'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.bash'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.zsh'
+[3.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_description/share/colcon-core/packages/robile_description)
+[3.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kelo_tulip)
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_interfaces
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/kelo_tulip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/kelo_tulip
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip' for CMake module files
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip' for CMake config files
+[3.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('kelo_tulip', 'cmake_prefix_path')
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/hook/cmake_prefix_path.ps1'
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/hook/cmake_prefix_path.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/hook/cmake_prefix_path.sh'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/lib'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/bin'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/lib/pkgconfig/kelo_tulip.pc'
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/lib/python3.10/site-packages'
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/bin'
+[3.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.ps1'
+[3.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.dsv'
+[3.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.sh'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.bash'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.zsh'
+[3.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/kelo_tulip/share/colcon-core/packages/kelo_tulip)
+[3.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[3.165s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description' for CMake module files
+[3.165s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description' for CMake config files
+[3.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[3.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[3.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[3.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/bin'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/lib/pkgconfig/robile_description.pc'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/lib/python3.10/site-packages'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_description/bin'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.ps1'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.dsv'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.sh'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.bash'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_description/share/robile_description/package.zsh'
+[3.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_description/share/colcon-core/packages/robile_description)
+[3.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/robile_gazebo' with build type 'ament_cmake'
+[3.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imnotarobot/ros2_ws/src/robile_gazebo'
+[3.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[3.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_interfaces
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces' for CMake module files
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces' for CMake config files
+[3.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[3.298s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/lib'
+[3.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/bin'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/python3.10/site-packages'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/bin'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.sh'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.bash'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[3.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[3.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kelo_tulip)
+[3.359s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip' for CMake module files
+[3.359s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip' for CMake config files
+[3.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('kelo_tulip', 'cmake_prefix_path')
+[3.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/hook/cmake_prefix_path.ps1'
+[3.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/hook/cmake_prefix_path.dsv'
+[3.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/hook/cmake_prefix_path.sh'
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/lib'
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/bin'
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/lib/pkgconfig/kelo_tulip.pc'
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/lib/python3.10/site-packages'
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/kelo_tulip/bin'
+[3.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.ps1'
+[3.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.dsv'
+[3.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.sh'
+[3.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.bash'
+[3.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.zsh'
+[3.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/kelo_tulip/share/colcon-core/packages/kelo_tulip)
+[3.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_control_simple/prefix_override:/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/imnotarobot/ros2_ws/build/robile_control_simple/build install --record /home/imnotarobot/ros2_ws/build/robile_control_simple/install.log --single-version-externally-managed
+[3.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_bringup/prefix_override:/home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/imnotarobot/ros2_ws/build/robile_bringup/build install --record /home/imnotarobot/ros2_ws/build/robile_bringup/install.log --single-version-externally-managed
+[3.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/src/py_trees_ros': PYTHONPATH=/home/imnotarobot/ros2_ws/build/py_trees_ros/prefix_override:/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/imnotarobot/ros2_ws/build/py_trees_ros/build install --record /home/imnotarobot/ros2_ws/build/py_trees_ros/install.log --single-version-externally-managed
+[3.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_reach_goal/prefix_override:/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/imnotarobot/ros2_ws/build/robile_reach_goal/build install --record /home/imnotarobot/ros2_ws/build/robile_reach_goal/install.log --single-version-externally-managed
+[3.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_gazebo -- -j12 -l12
+[3.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[3.432s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces' for CMake module files
+[3.432s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces' for CMake config files
+[3.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/lib'
+[3.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[3.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/bin'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/python3.10/site-packages'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_interfaces/bin'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.sh'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.bash'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[3.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[3.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imnotarobot/ros2_ws/src/robile_navigation' with build type 'ament_cmake'
+[3.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imnotarobot/ros2_ws/src/robile_navigation'
+[3.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_gazebo -- -j12 -l12
+[3.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_navigation -- -j12 -l12
+[3.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_gazebo
+[3.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[3.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_gazebo
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo' for CMake module files
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo' for CMake config files
+[3.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[3.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[3.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[3.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/bin'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/lib/python3.10/site-packages'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/bin'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[3.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[3.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.sh'
+[3.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.bash'
+[3.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[3.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[3.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_control_simple/prefix_override:/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/imnotarobot/ros2_ws/build/robile_control_simple/build install --record /home/imnotarobot/ros2_ws/build/robile_control_simple/install.log --single-version-externally-managed
+[3.687s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple' for CMake module files
+[3.687s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple' for CMake config files
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple/lib'
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple/bin'
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/pkgconfig/robile_control_simple.pc'
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages'
+[3.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'pythonpath')
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.ps1'
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.dsv'
+[3.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.sh'
+[3.704s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_control_simple/bin'
+[3.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_control_simple)
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/package.ps1'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/package.dsv'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/package.sh'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/package.bash'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_control_simple/share/robile_control_simple/package.zsh'
+[3.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_control_simple/share/colcon-core/packages/robile_control_simple)
+[3.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo' for CMake module files
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo' for CMake config files
+[3.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[3.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[3.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[3.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/bin'
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[3.766s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/lib/python3.10/site-packages'
+[3.766s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_gazebo/bin'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.sh'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.bash'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[3.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[3.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_reach_goal/prefix_override:/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/imnotarobot/ros2_ws/build/robile_reach_goal/build install --record /home/imnotarobot/ros2_ws/build/robile_reach_goal/install.log --single-version-externally-managed
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal' for CMake module files
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal' for CMake config files
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib'
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal/bin'
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/pkgconfig/robile_reach_goal.pc'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages'
+[3.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'pythonpath')
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.ps1'
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.dsv'
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.sh'
+[3.814s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_reach_goal/bin'
+[3.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_reach_goal)
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/package.ps1'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/package.dsv'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/package.sh'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/package.bash'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/robile_reach_goal/package.zsh'
+[3.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_reach_goal/share/colcon-core/packages/robile_reach_goal)
+[3.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_bringup/prefix_override:/home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/imnotarobot/ros2_ws/build/robile_bringup/build install --record /home/imnotarobot/ros2_ws/build/robile_bringup/install.log --single-version-externally-managed
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup' for CMake module files
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup' for CMake config files
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup/lib'
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup/bin'
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup/lib/pkgconfig/robile_bringup.pc'
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup/lib/python3.10/site-packages'
+[3.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'pythonpath')
+[3.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/hook/pythonpath.ps1'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/hook/pythonpath.dsv'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/hook/pythonpath.sh'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_bringup/bin'
+[3.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_bringup)
+[3.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/package.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/package.dsv'
+[3.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/package.sh'
+[3.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/package.bash'
+[3.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_bringup/share/robile_bringup/package.zsh'
+[3.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_bringup/share/colcon-core/packages/robile_bringup)
+[3.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/src/py_trees_ros' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/py_trees_ros/prefix_override:/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/imnotarobot/ros2_ws/build/py_trees_ros/build install --record /home/imnotarobot/ros2_ws/build/py_trees_ros/install.log --single-version-externally-managed
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros' for CMake module files
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros' for CMake config files
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros/lib'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros/bin'
+[3.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'path')
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/path.ps1'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/path.dsv'
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/path.sh'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/pkgconfig/py_trees_ros.pc'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages'
+[3.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'pythonpath')
+[3.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonpath.ps1'
+[3.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonpath.dsv'
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonpath.sh'
+[3.927s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/py_trees_ros/bin'
+[3.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'pythonscriptspath')
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonscriptspath.ps1'
+[3.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonscriptspath.dsv'
+[3.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonscriptspath.sh'
+[3.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_trees_ros)
+[3.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/package.ps1'
+[3.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/package.dsv'
+[3.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/package.sh'
+[3.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/package.bash'
+[3.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros/package.zsh'
+[3.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/py_trees_ros/share/colcon-core/packages/py_trees_ros)
+[3.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_navigation -- -j12 -l12
+[3.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_navigation
+[4.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_navigation)
+[4.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_navigation
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation' for CMake module files
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation' for CMake config files
+[4.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_navigation', 'cmake_prefix_path')
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.ps1'
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.dsv'
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.sh'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/lib'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/bin'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/lib/pkgconfig/robile_navigation.pc'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/lib/python3.10/site-packages'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/bin'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.sh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.bash'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.zsh'
+[4.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_navigation/share/colcon-core/packages/robile_navigation)
+[4.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_navigation)
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation' for CMake module files
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation' for CMake config files
+[4.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_navigation', 'cmake_prefix_path')
+[4.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.ps1'
+[4.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.dsv'
+[4.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.sh'
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/lib'
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/bin'
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/lib/pkgconfig/robile_navigation.pc'
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/lib/python3.10/site-packages'
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/imnotarobot/ros2_ws/install/robile_navigation/bin'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.ps1'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.dsv'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.sh'
+[4.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.bash'
+[4.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.zsh'
+[4.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imnotarobot/ros2_ws/install/robile_navigation/share/colcon-core/packages/robile_navigation)
+[4.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.126s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.144s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.152s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imnotarobot/ros2_ws/install/local_setup.ps1'
+[4.167s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/imnotarobot/ros2_ws/install/_local_setup_util_ps1.py'
+[4.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imnotarobot/ros2_ws/install/setup.ps1'
+[4.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imnotarobot/ros2_ws/install/local_setup.sh'
+[4.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/imnotarobot/ros2_ws/install/_local_setup_util_sh.py'
+[4.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imnotarobot/ros2_ws/install/setup.sh'
+[4.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imnotarobot/ros2_ws/install/local_setup.bash'
+[4.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imnotarobot/ros2_ws/install/setup.bash'
+[4.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imnotarobot/ros2_ws/install/local_setup.zsh'
+[4.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imnotarobot/ros2_ws/install/setup.zsh'

@@ -1,0 +1,23 @@
+[1.721s] Invoking command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_reach_goal/prefix_override:/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/imnotarobot/ros2_ws/build/robile_reach_goal/build install --record /home/imnotarobot/ros2_ws/build/robile_reach_goal/install.log --single-version-externally-managed
+[1.953s] running egg_info
+[1.955s] writing ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/PKG-INFO
+[1.955s] writing dependency_links to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/dependency_links.txt
+[1.956s] writing entry points to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/entry_points.txt
+[1.956s] writing requirements to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/requires.txt
+[1.956s] writing top-level names to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/top_level.txt
+[1.957s] reading manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.958s] writing manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.958s] running build
+[1.958s] running build_py
+[1.959s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.959s]   warnings.warn(
+[1.959s] running install
+[1.959s] running install_lib
+[1.960s] running install_data
+[1.960s] running install_egg_info
+[1.962s] removing '/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[1.963s] Copying ../../../../build/robile_reach_goal/robile_reach_goal.egg-info to /home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info
+[1.964s] running install_scripts
+[1.981s] Installing robile_reach_goal script to /home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/robile_reach_goal
+[1.981s] writing list of installed files to '/home/imnotarobot/ros2_ws/build/robile_reach_goal/install.log'
+[2.196s] Invoked command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_reach_goal/prefix_override:/home/imnotarobot/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/imnotarobot/ros2_ws/build/robile_reach_goal/build install --record /home/imnotarobot/ros2_ws/build/robile_reach_goal/install.log --single-version-externally-managed

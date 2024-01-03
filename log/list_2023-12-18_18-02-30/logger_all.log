@@ -1,0 +1,223 @@
+[1.276s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/imnotarobot/ros2_ws']
+[1.276s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/imnotarobot/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1ac2d8e9e0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f1ac2d4f7f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f1ac2d4f7f0>>)
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.335s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/imnotarobot/ros2_ws'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'ignore'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'ignore_ament_install'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extensions ['colcon_pkg']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'colcon_pkg'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extensions ['colcon_meta']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'colcon_meta'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extensions ['ros']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'ros'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extensions ['cmake', 'python']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'cmake'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'python'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extensions ['python_setup_py']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws) by extension 'python_setup_py'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/build) by extension 'ignore'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/build) ignored
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/install) by extension 'ignore'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/install) ignored
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/log) by extension 'ignore'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/log) ignored
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'ignore'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'ignore_ament_install'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extensions ['colcon_pkg']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'colcon_pkg'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extensions ['colcon_meta']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'colcon_meta'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extensions ['ros']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'ros'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extensions ['cmake', 'python']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'cmake'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'python'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extensions ['python_setup_py']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src) by extension 'python_setup_py'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extensions ['ignore', 'ignore_ament_install']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'ignore'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'ignore_ament_install'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extensions ['colcon_pkg']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'colcon_pkg'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extensions ['colcon_meta']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'colcon_meta'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extensions ['ros']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'ros'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extensions ['cmake', 'python']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'cmake'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'python'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extensions ['python_setup_py']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile) by extension 'python_setup_py'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/docs) by extension 'ignore'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/docs) ignored
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extension 'ignore'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extensions ['colcon_pkg']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extension 'colcon_pkg'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extensions ['colcon_meta']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extension 'colcon_meta'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extensions ['ros']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_bringup) by extension 'ros'
+[1.349s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/Robile/robile_bringup' with type 'ros.ament_python' and name 'robile_bringup'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'ignore_ament_install'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extensions ['colcon_pkg']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'colcon_pkg'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extensions ['colcon_meta']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'colcon_meta'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extensions ['ros']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'ros'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extensions ['cmake', 'python']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'cmake'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'python'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extensions ['python_setup_py']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos) by extension 'python_setup_py'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extensions ['ignore', 'ignore_ament_install']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extension 'ignore'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extension 'ignore_ament_install'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_pkg']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extension 'colcon_pkg'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_meta']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extension 'colcon_meta'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extensions ['ros']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple) by extension 'ros'
+[1.350s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple' with type 'ros.ament_python' and name 'robile_control_simple'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extensions ['ignore', 'ignore_ament_install']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extension 'ignore'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extension 'ignore_ament_install'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_pkg']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_pkg'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_meta']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_meta'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extensions ['ros']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal) by extension 'ros'
+[1.351s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_reach_goal' with type 'ros.ament_python' and name 'robile_reach_goal'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extensions ['ignore', 'ignore_ament_install']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'ignore'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'ignore_ament_install'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extensions ['colcon_pkg']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'colcon_pkg'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'colcon_meta'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extensions ['ros']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'ros'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extensions ['cmake', 'python']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'cmake'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'python'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extensions ['python_setup_py']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets) by extension 'python_setup_py'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'ignore'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'ignore_ament_install'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extensions ['colcon_pkg']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'colcon_pkg'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'colcon_meta'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extensions ['ros']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'ros'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extensions ['cmake', 'python']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'cmake'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'python'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extensions ['python_setup_py']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/bitmaps) by extension 'python_setup_py'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'ignore'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'ignore_ament_install'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extensions ['colcon_pkg']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'colcon_pkg'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extensions ['colcon_meta']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'colcon_meta'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'ros'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extensions ['cmake', 'python']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'cmake'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'python'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extensions ['python_setup_py']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet01) by extension 'python_setup_py'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'ignore'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'ignore_ament_install'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extensions ['colcon_pkg']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'colcon_pkg'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extensions ['colcon_meta']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'colcon_meta'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'ros'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extensions ['cmake', 'python']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'cmake'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'python'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extensions ['python_setup_py']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/Robile/worksheets/worksheet02) by extension 'python_setup_py'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extensions ['ignore', 'ignore_ament_install']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extension 'ignore'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extension 'ignore_ament_install'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extensions ['colcon_pkg']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extension 'colcon_pkg'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extensions ['colcon_meta']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extension 'colcon_meta'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extensions ['ros']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/kelo_tulip) by extension 'ros'
+[1.355s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/kelo_tulip' with type 'ros.ament_cmake' and name 'kelo_tulip'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extension 'ignore'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extension 'ignore_ament_install'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extensions ['colcon_pkg']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extension 'colcon_pkg'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extensions ['colcon_meta']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extension 'colcon_meta'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extensions ['ros']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/py_trees_ros) by extension 'ros'
+[1.356s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/py_trees_ros' with type 'ros.ament_python' and name 'py_trees_ros'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extensions ['ignore', 'ignore_ament_install']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extension 'ignore'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extension 'ignore_ament_install'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extensions ['colcon_pkg']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extension 'colcon_pkg'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extensions ['colcon_meta']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extension 'colcon_meta'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extensions ['ros']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_description) by extension 'ros'
+[1.357s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/robile_description' with type 'ros.ament_cmake' and name 'robile_description'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extension 'ignore'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extension 'ignore_ament_install'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extensions ['colcon_pkg']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extension 'colcon_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extensions ['colcon_meta']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extension 'colcon_meta'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extensions ['ros']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_gazebo) by extension 'ros'
+[1.359s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/robile_gazebo' with type 'ros.ament_cmake' and name 'robile_gazebo'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extension 'ignore'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extension 'ignore_ament_install'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extensions ['colcon_pkg']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extension 'colcon_pkg'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extensions ['colcon_meta']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extension 'colcon_meta'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extensions ['ros']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_interfaces) by extension 'ros'
+[1.360s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/robile_interfaces' with type 'ros.ament_cmake' and name 'robile_interfaces'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extension 'ignore'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extension 'ignore_ament_install'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extensions ['colcon_pkg']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extension 'colcon_pkg'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extensions ['colcon_meta']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extension 'colcon_meta'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extensions ['ros']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/imnotarobot/ros2_ws/src/robile_navigation) by extension 'ros'
+[1.361s] DEBUG:colcon.colcon_core.package_identification:Package '/home/imnotarobot/ros2_ws/src/robile_navigation' with type 'ros.ament_cmake' and name 'robile_navigation'
+[1.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

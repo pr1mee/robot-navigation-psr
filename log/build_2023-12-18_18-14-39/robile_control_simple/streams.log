@@ -1,0 +1,23 @@
+[1.868s] Invoking command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_control_simple/prefix_override:/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/imnotarobot/ros2_ws/build/robile_control_simple/build install --record /home/imnotarobot/ros2_ws/build/robile_control_simple/install.log --single-version-externally-managed
+[2.106s] running egg_info
+[2.107s] writing ../../../../build/robile_control_simple/robile_control_simple.egg-info/PKG-INFO
+[2.107s] writing dependency_links to ../../../../build/robile_control_simple/robile_control_simple.egg-info/dependency_links.txt
+[2.107s] writing entry points to ../../../../build/robile_control_simple/robile_control_simple.egg-info/entry_points.txt
+[2.107s] writing requirements to ../../../../build/robile_control_simple/robile_control_simple.egg-info/requires.txt
+[2.107s] writing top-level names to ../../../../build/robile_control_simple/robile_control_simple.egg-info/top_level.txt
+[2.109s] reading manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[2.110s] writing manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[2.110s] running build
+[2.110s] running build_py
+[2.110s] running install
+[2.111s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.111s]   warnings.warn(
+[2.111s] running install_lib
+[2.112s] running install_data
+[2.113s] running install_egg_info
+[2.115s] removing '/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple-0.0.0-py3.10.egg-info' (and everything under it)
+[2.115s] Copying ../../../../build/robile_control_simple/robile_control_simple.egg-info to /home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple-0.0.0-py3.10.egg-info
+[2.116s] running install_scripts
+[2.136s] Installing circular_motion_publisher script to /home/imnotarobot/ros2_ws/install/robile_control_simple/lib/robile_control_simple
+[2.136s] writing list of installed files to '/home/imnotarobot/ros2_ws/build/robile_control_simple/install.log'
+[2.303s] Invoked command in '/home/imnotarobot/ros2_ws/src/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/robile_control_simple/prefix_override:/home/imnotarobot/ros2_ws/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/imnotarobot/ros2_ws/build/robile_control_simple/build install --record /home/imnotarobot/ros2_ws/build/robile_control_simple/install.log --single-version-externally-managed

@@ -1,0 +1,63 @@
+[0.129s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_navigation -- -j12 -l12
+[0.175s] Built target ament_cmake_python_copy_robile_navigation
+[0.397s] running egg_info
+[0.398s] writing robile_navigation.egg-info/PKG-INFO
+[0.398s] writing dependency_links to robile_navigation.egg-info/dependency_links.txt
+[0.398s] writing top-level names to robile_navigation.egg-info/top_level.txt
+[0.400s] reading manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[0.400s] writing manifest file 'robile_navigation.egg-info/SOURCES.txt'
+[0.421s] Built target ament_cmake_python_build_robile_navigation_egg
+[0.444s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_navigation -- -j12 -l12
+[0.536s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_navigation': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_navigation
+[0.541s] -- Install configuration: ""
+[0.541s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch
+[0.541s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/navigation.launch.py
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/robile_nav2_bringup.launch.py
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/localization.launch.py
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/online_async.launch.py
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/launch/landmark_based_localisation.launch.py
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config
+[0.542s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/nav2_params.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/smacPlannerLattice.json
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/mapper_params_online_async.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/robile_nav_params.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/amcl_config.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/config/robile_ros2_nav.rviz
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map1.pgm
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map_name.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map_name1.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map_name.pgm
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map1.yaml
+[0.542s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/closed_walls_map.pgm
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map_name1.pgm
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/map.pgm
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/maps/closed_walls_map.yaml
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/pythonpath.sh
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/pythonpath.dsv
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info
+[0.543s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.543s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[0.543s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.543s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation
+[0.543s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation/__init__.py
+[0.568s] Listing '/home/imnotarobot/ros2_ws/install/robile_navigation/local/lib/python3.10/dist-packages/robile_navigation'...
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/lib/robile_navigation/robile_rfid_tag_finder.py
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/ament_index/resource_index/package_run_dependencies/robile_navigation
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/ament_index/resource_index/parent_prefix_path/robile_navigation
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/ament_prefix_path.sh
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/ament_prefix_path.dsv
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/path.sh
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/environment/path.dsv
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.bash
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.sh
+[0.572s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.zsh
+[0.573s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/local_setup.dsv
+[0.573s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.dsv
+[0.573s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/ament_index/resource_index/packages/robile_navigation
+[0.573s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/cmake/robile_navigationConfig.cmake
+[0.573s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/cmake/robile_navigationConfig-version.cmake
+[0.573s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_navigation/share/robile_navigation/package.xml
+[0.574s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/imnotarobot/ros2_ws/install/robile_interfaces:/home/imnotarobot/ros2_ws/install/robile_navigation:/home/imnotarobot/ros2_ws/install/robile_gazebo:/home/imnotarobot/ros2_ws/install/robile_description:/home/imnotarobot/ros2_ws/install/kelo_tulip:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/home/imnotarobot/ros2_ws/install/py_trees_ros:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_navigation

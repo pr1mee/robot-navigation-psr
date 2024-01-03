@@ -1,0 +1,36 @@
+platform_driver:
+  ros__parameters:
+    num_wheels: 4
+    num_masters: 1
+    device: eno1
+
+    vlin_max: 1.2
+    va_max: 1.0
+
+    wheel0:
+      ethercat_number: 5
+      x: 0.233
+      y: 0.1165
+      a: -4.77
+      reverse_velocity: 1
+
+    wheel1:
+      ethercat_number: 7
+      x: -0.233
+      y: 0.1165
+      a: 1.49
+      reverse_velocity: 1
+
+    wheel2:
+      ethercat_number: 9
+      x: -0.233
+      y: -0.1165
+      a: 1.51
+      reverse_velocity: 1
+
+    wheel3:
+      ethercat_number: 3
+      x: 0.233
+      y: -0.1165
+      a: 1.71
+      reverse_velocity: 1

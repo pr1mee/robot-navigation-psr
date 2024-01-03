@@ -1,0 +1,4 @@
+[console_scripts]
+py-trees-blackboard-watcher = py_trees_ros.programs.blackboard_watcher:main
+py-trees-tree-watcher = py_trees_ros.programs.tree_watcher:main
+

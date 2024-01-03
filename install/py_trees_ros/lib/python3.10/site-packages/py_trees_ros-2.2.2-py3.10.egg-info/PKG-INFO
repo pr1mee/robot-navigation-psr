@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-trees-ros
+Version: 2.2.2
+Summary: ROS extensions for py-trees, a pythonic implementation of behaviour trees.
+Home-page: https://github.com/splintered-reality/py_trees_ros
+Author: Daniel Stonier, Naveed Usmani, Michal Staniaszek
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+License: BSD
+Keywords: ROS,behaviour-trees
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+ROS extensions for py-trees, a pythonic implementation of behaviour trees. It includes ROS specific behaviours a treemanager with ROS communication handles for debugging andvisualisation, logging and various tutorials.
+

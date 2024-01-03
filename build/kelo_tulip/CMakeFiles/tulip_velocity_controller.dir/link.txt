@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtulip_velocity_controller.a CMakeFiles/tulip_velocity_controller.dir/src/Utils.cpp.o CMakeFiles/tulip_velocity_controller.dir/src/VelocityPlatformController.cpp.o
+/usr/bin/ranlib libtulip_velocity_controller.a

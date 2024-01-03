@@ -1,0 +1,254 @@
+[0.389s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake /home/imnotarobot/ros2_ws/src/robile_interfaces -DCMAKE_INSTALL_PREFIX=/home/imnotarobot/ros2_ws/install/robile_interfaces
+[1.197s] -- The C compiler identification is GNU 11.4.0
+[1.197s] -- The CXX compiler identification is GNU 11.4.0
+[1.197s] -- Detecting C compiler ABI info
+[1.197s] -- Detecting C compiler ABI info - done
+[1.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.197s] -- Detecting C compile features
+[1.197s] -- Detecting C compile features - done
+[1.197s] -- Detecting CXX compiler ABI info
+[1.197s] -- Detecting CXX compiler ABI info - done
+[1.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.197s] -- Detecting CXX compile features
+[1.197s] -- Detecting CXX compile features - done
+[1.197s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.197s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.197s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.197s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.197s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.197s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.198s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.198s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.198s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.648s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.649s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.673s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.673s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.674s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.674s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.692s] -- Found PythonExtra: .so  
+[1.780s] -- Configuring done
+[1.824s] -- Generating done
+[1.827s] -- Build files have been written to: /home/imnotarobot/ros2_ws/build/robile_interfaces
+[1.840s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake /home/imnotarobot/ros2_ws/src/robile_interfaces -DCMAKE_INSTALL_PREFIX=/home/imnotarobot/ros2_ws/install/robile_interfaces
+[1.841s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_interfaces -- -j12 -l12
+[1.874s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.882s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.895s] [  5%] Built target ament_cmake_python_copy_robile_interfaces
+[2.168s] [  5%] Built target robile_interfaces__cpp
+[2.182s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.185s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.195s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.264s] running egg_info
+[2.265s] creating robile_interfaces.egg-info
+[2.265s] writing robile_interfaces.egg-info/PKG-INFO
+[2.266s] writing dependency_links to robile_interfaces.egg-info/dependency_links.txt
+[2.266s] writing top-level names to robile_interfaces.egg-info/top_level.txt
+[2.266s] writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[2.269s] reading manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[2.270s] writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[2.331s] [ 12%] Built target ament_cmake_python_build_robile_interfaces_egg
+[2.423s] [ 17%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robile_interfaces/msg/detail/position_labelled__functions.c.o[0m
+[2.423s] [ 17%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robile_interfaces/msg/detail/position_labelled_array__functions.c.o[0m
+[2.482s] [ 20%] [32m[1mLinking C shared library librobile_interfaces__rosidl_generator_c.so[0m
+[2.522s] [ 20%] Built target robile_interfaces__rosidl_generator_c
+[2.533s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.533s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.533s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.538s] [ 30%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robile_interfaces/msg/position_labelled_array__type_support.cpp.o[0m
+[2.541s] [ 33%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robile_interfaces/msg/position_labelled__type_support.cpp.o[0m
+[2.557s] [ 35%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robile_interfaces/msg/detail/dds_fastrtps/position_labelled_array__type_support.cpp.o[0m
+[2.557s] [ 38%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robile_interfaces/msg/detail/dds_fastrtps/position_labelled__type_support.cpp.o[0m
+[2.676s] [ 41%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robile_interfaces/msg/detail/position_labelled__type_support.cpp.o[0m
+[2.680s] [ 43%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robile_interfaces/msg/detail/position_labelled_array__type_support.cpp.o[0m
+[2.883s] [ 46%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_cpp.so[0m
+[2.884s] [ 48%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robile_interfaces/msg/position_labelled_array__type_support.cpp.o[0m
+[2.885s] [ 51%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robile_interfaces/msg/position_labelled__type_support.cpp.o[0m
+[2.912s] [ 53%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__type_support_c.cpp.o[0m
+[2.917s] [ 56%] [32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__type_support_c.cpp.o[0m
+[2.926s] [ 58%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_c.so[0m
+[2.933s] [ 64%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robile_interfaces/msg/detail/position_labelled__type_support.c.o[0m
+[2.933s] [ 64%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robile_interfaces/msg/detail/position_labelled_array__type_support.c.o[0m
+[2.958s] [ 64%] Built target robile_interfaces__rosidl_typesupport_cpp
+[2.972s] [ 64%] Built target robile_interfaces__rosidl_typesupport_c
+[2.974s] [ 66%] [32m[1mLinking C shared library librobile_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.014s] [ 66%] Built target robile_interfaces__rosidl_typesupport_introspection_c
+[3.093s] [ 69%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.123s] [ 71%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.156s] [ 71%] Built target robile_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.182s] [ 71%] Built target robile_interfaces__rosidl_typesupport_introspection_cpp
+[3.211s] [ 74%] [32m[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.261s] [ 74%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c
+[3.274s] [ 74%] Built target robile_interfaces
+[3.289s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.574s] [ 76%] Built target robile_interfaces__py
+[3.590s] [ 82%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robile_interfaces/msg/_position_labelled_array_s.c.o[0m
+[3.590s] [ 82%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robile_interfaces/msg/_position_labelled_s.c.o[0m
+[3.665s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/librobile_interfaces__rosidl_generator_py.so[0m
+[3.695s] [ 84%] Built target robile_interfaces__rosidl_generator_py
+[3.709s] [ 92%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.709s] [ 92%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.709s] [ 92%] [32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.784s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.784s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.784s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.812s] [100%] Built target robile_interfaces__rosidl_typesupport_c__pyext
+[3.812s] [100%] Built target robile_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.815s] [100%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.823s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --build /home/imnotarobot/ros2_ws/build/robile_interfaces -- -j12 -l12
+[3.867s] Invoking command in '/home/imnotarobot/ros2_ws/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_interfaces
+[3.873s] -- Install configuration: ""
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/ament_index/resource_index/rosidl_interfaces/robile_interfaces
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled_array.h
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled.h
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[3.873s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__functions.c
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__functions.h
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__struct.h
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__functions.c
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__struct.h
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__functions.h
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.h
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.h
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/library_path.sh
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/library_path.dsv
+[3.874s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_c.so
+[3.875s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_c.so" to ""
+[3.875s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[3.875s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[3.875s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[3.875s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_c.h
+[3.875s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_c.h
+[3.875s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.875s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.875s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.875s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[3.876s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled_array.hpp
+[3.876s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__traits.hpp
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__traits.hpp
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__struct.hpp
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__builder.hpp
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__builder.hpp
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__struct.hpp
+[3.876s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled.hpp
+[3.876s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[3.877s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[3.877s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[3.877s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.877s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_cpp.hpp
+[3.877s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/dds_fastrtps
+[3.877s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.877s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.877s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.877s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[3.877s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.878s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.c
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_introspection_c.h
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_introspection_c.h
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.c
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_c.so
+[3.878s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.878s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_c.so
+[3.879s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_c.so" to ""
+[3.879s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces
+[3.879s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg
+[3.879s] -- Up-to-date: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail
+[3.879s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.cpp
+[3.879s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.cpp
+[3.879s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_introspection_cpp.hpp
+[3.879s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_introspection_cpp.hpp
+[3.879s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.879s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.879s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_cpp.so
+[3.880s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/pythonpath.sh
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/pythonpath.dsv
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.880s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/librobile_interfaces__rosidl_generator_py.so
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/__init__.py
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_c.c
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_s.c
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array.py
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/__init__.py
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array_s.c
+[3.881s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled.py
+[3.905s] Listing '/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces'...
+[3.905s] Compiling '/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/__init__.py'...
+[3.905s] Listing '/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg'...
+[3.905s] Compiling '/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/__init__.py'...
+[3.905s] Compiling '/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled.py'...
+[3.905s] Compiling '/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array.py'...
+[3.908s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.908s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.909s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.909s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.909s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.909s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.909s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_py.so
+[3.909s] -- Set runtime path of "/home/imnotarobot/ros2_ws/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_py.so" to ""
+[3.909s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelled.idl
+[3.909s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelledArray.idl
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelled.msg
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelledArray.msg
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/ament_index/resource_index/package_run_dependencies/robile_interfaces
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/ament_index/resource_index/parent_prefix_path/robile_interfaces
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/ament_prefix_path.sh
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/ament_prefix_path.dsv
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/path.sh
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/environment/path.dsv
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/local_setup.bash
+[3.910s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/local_setup.sh
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/local_setup.zsh
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/local_setup.dsv
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.dsv
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/ament_index/resource_index/packages/robile_interfaces
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cExport.cmake
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cppExport.cmake
+[3.911s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cExport.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cppExport.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_pyExport.cmake
+[3.912s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfacesConfig.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfacesConfig-version.cmake
+[3.913s] -- Installing: /home/imnotarobot/ros2_ws/install/robile_interfaces/share/robile_interfaces/package.xml
+[3.914s] Invoked command in '/home/imnotarobot/ros2_ws/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imnotarobot/ros2_ws/install/robile_reach_goal:/home/imnotarobot/ros2_ws/install/robile_control_simple:/home/imnotarobot/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --install /home/imnotarobot/ros2_ws/build/robile_interfaces

@@ -1,0 +1,8 @@
+source;share/kelo_tulip/hook/cmake_prefix_path.ps1
+source;share/kelo_tulip/hook/cmake_prefix_path.dsv
+source;share/kelo_tulip/hook/cmake_prefix_path.sh
+source;share/kelo_tulip/local_setup.bash
+source;share/kelo_tulip/local_setup.dsv
+source;share/kelo_tulip/local_setup.ps1
+source;share/kelo_tulip/local_setup.sh
+source;share/kelo_tulip/local_setup.zsh

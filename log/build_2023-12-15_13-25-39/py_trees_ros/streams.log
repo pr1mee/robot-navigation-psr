@@ -1,0 +1,104 @@
+[1.794s] Invoking command in '/home/imnotarobot/ros2_ws/src/py_trees_ros': PYTHONPATH=/home/imnotarobot/ros2_ws/build/py_trees_ros/prefix_override:/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/imnotarobot/ros2_ws/build/py_trees_ros/build install --record /home/imnotarobot/ros2_ws/build/py_trees_ros/install.log --single-version-externally-managed
+[2.159s] running egg_info
+[2.159s] creating ../../build/py_trees_ros/py_trees_ros.egg-info
+[2.160s] writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO
+[2.160s] writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt
+[2.160s] writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt
+[2.161s] writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt
+[2.161s] writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.171s] reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.171s] adding license file 'LICENSE'
+[2.172s] writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[2.172s] running build
+[2.172s] running build_py
+[2.172s] creating /home/imnotarobot/ros2_ws/build/py_trees_ros/build
+[2.172s] creating /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib
+[2.172s] creating /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.172s] copying py_trees_ros/actions.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.172s] copying py_trees_ros/transforms.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.172s] copying py_trees_ros/conversions.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.172s] copying py_trees_ros/__init__.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/visitors.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/blackboard.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/battery.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/exceptions.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/action_clients.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/version.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/utilities.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/trees.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/publishers.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] copying py_trees_ros/subscribers.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros
+[2.173s] creating /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[2.173s] copying py_trees_ros/programs/__init__.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[2.174s] copying py_trees_ros/programs/blackboard_watcher.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[2.174s] copying py_trees_ros/programs/multi_talker.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[2.174s] copying py_trees_ros/programs/tree_watcher.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[2.176s] copying py_trees_ros/programs/echo.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[2.176s] creating /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[2.176s] copying py_trees_ros/mock/actions.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[2.177s] copying py_trees_ros/mock/__init__.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[2.177s] copying py_trees_ros/mock/dock.py -> /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[2.177s] running install
+[2.177s] running install_lib
+[2.178s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.178s]   warnings.warn(
+[2.178s] creating /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.178s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/actions.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.179s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/transforms.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.179s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/conversions.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.179s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/__init__.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.179s] creating /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs
+[2.181s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs/__init__.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs
+[2.181s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs/blackboard_watcher.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs
+[2.182s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs/multi_talker.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs
+[2.182s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs/tree_watcher.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs
+[2.182s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/programs/echo.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs
+[2.183s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/visitors.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.183s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/blackboard.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.183s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/battery.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.183s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/exceptions.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.183s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/action_clients.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.184s] creating /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock
+[2.184s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock/actions.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock
+[2.184s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock/__init__.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock
+[2.184s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/mock/dock.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock
+[2.184s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/version.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.185s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/utilities.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.185s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/trees.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.185s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/publishers.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.185s] copying /home/imnotarobot/ros2_ws/build/py_trees_ros/build/lib/py_trees_ros/subscribers.py -> /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros
+[2.186s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/actions.py to actions.cpython-310.pyc
+[2.186s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/transforms.py to transforms.cpython-310.pyc
+[2.187s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/conversions.py to conversions.cpython-310.pyc
+[2.193s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/__init__.py to __init__.cpython-310.pyc
+[2.193s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs/__init__.py to __init__.cpython-310.pyc
+[2.193s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs/blackboard_watcher.py to blackboard_watcher.cpython-310.pyc
+[2.193s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs/multi_talker.py to multi_talker.cpython-310.pyc
+[2.194s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs/tree_watcher.py to tree_watcher.cpython-310.pyc
+[2.194s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/programs/echo.py to echo.cpython-310.pyc
+[2.195s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/visitors.py to visitors.cpython-310.pyc
+[2.196s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/blackboard.py to blackboard.cpython-310.pyc
+[2.213s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/battery.py to battery.cpython-310.pyc
+[2.213s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/exceptions.py to exceptions.cpython-310.pyc
+[2.214s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/action_clients.py to action_clients.cpython-310.pyc
+[2.214s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock/actions.py to actions.cpython-310.pyc
+[2.215s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock/__init__.py to __init__.cpython-310.pyc
+[2.215s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/mock/dock.py to dock.cpython-310.pyc
+[2.216s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/version.py to version.cpython-310.pyc
+[2.216s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/utilities.py to utilities.cpython-310.pyc
+[2.217s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/trees.py to trees.cpython-310.pyc
+[2.217s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/publishers.py to publishers.cpython-310.pyc
+[2.217s] byte-compiling /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros/subscribers.py to subscribers.cpython-310.pyc
+[2.218s] running install_data
+[2.220s] copying package.xml -> /home/imnotarobot/ros2_ws/install/py_trees_ros/share/py_trees_ros
+[2.220s] creating /home/imnotarobot/ros2_ws/install/py_trees_ros/share/ament_index
+[2.220s] creating /home/imnotarobot/ros2_ws/install/py_trees_ros/share/ament_index/resource_index
+[2.220s] creating /home/imnotarobot/ros2_ws/install/py_trees_ros/share/ament_index/resource_index/packages
+[2.221s] copying resources/py_trees_ros -> /home/imnotarobot/ros2_ws/install/py_trees_ros/share/ament_index/resource_index/packages
+[2.221s] running install_egg_info
+[2.224s] Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info
+[2.225s] running install_scripts
+[2.255s] Installing py-trees-blackboard-watcher script to /home/imnotarobot/ros2_ws/install/py_trees_ros/bin
+[2.255s] Installing py-trees-tree-watcher script to /home/imnotarobot/ros2_ws/install/py_trees_ros/bin
+[2.256s] writing list of installed files to '/home/imnotarobot/ros2_ws/build/py_trees_ros/install.log'
+[2.424s] Invoked command in '/home/imnotarobot/ros2_ws/src/py_trees_ros' returned '0': PYTHONPATH=/home/imnotarobot/ros2_ws/build/py_trees_ros/prefix_override:/home/imnotarobot/ros2_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/imnotarobot/ros2_ws/build/py_trees_ros/build install --record /home/imnotarobot/ros2_ws/build/py_trees_ros/install.log --single-version-externally-managed

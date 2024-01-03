@@ -1,0 +1,316 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/imnotarobot/ros2_ws/build/kelo_tulip
+[ 10%] [32mBuilding CXX object CMakeFiles/tulip_velocity_controller.dir/src/Utils.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/tulip_velocity_controller.dir/src/VelocityPlatformController.cpp.o[0m
+[ 15%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatcoe.c.o[0m
+[ 20%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatconfig.c.o[0m
+[ 25%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatdc.c.o[0m
+[ 30%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatbase.c.o[0m
+[ 35%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatfoe.c.o[0m
+[ 40%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatprint.c.o[0m
+[ 45%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatmain.c.o[0m
+[ 50%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatsoe.c.o[0m
+[ 55%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/osal/linux/osal.c.o[0m
+[ 60%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/oshw/linux/nicdrv.c.o[0m
+[ 65%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/oshw/linux/oshw.c.o[0m
+[ 70%] [32m[1mLinking C static library libsoem.a[0m
+[ 70%] Built target soem
+[ 75%] [32m[1mLinking CXX static library libtulip_velocity_controller.a[0m
+[ 75%] Built target tulip_velocity_controller
+[ 95%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/modules/RobileMasterBattery.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/PlatformDriverROS.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/PlatformDriver.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/EtherCATModule.cpp.o[0m
+[100%] [32m[1mLinking CXX executable platform_driver[0m
+[100%] Built target platform_driver
+-- Install configuration: ""
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/lib/kelo_tulip/platform_driver
+-- Set runtime path of "/home/imnotarobot/ros2_ws/install/kelo_tulip/lib/kelo_tulip/platform_driver" to ""
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/lib/libtulip_velocity_controller.a
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal_defs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal_defs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/osal.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal_defs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal_defs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_defs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_win32.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/stdint.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/inttypes.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfiglist.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercattype.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatdc.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-namedb.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Packet32.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/remote-ext.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Win32-Extensions.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/namedb.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/pcap.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/vlan.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bpf.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/sll.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/usb.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bluetooth.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/bittypes.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-stdinc.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-bpf.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/ip6_misc.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libpacket.a
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/wpcap.lib
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/Packet.lib
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libwpcap.a
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/wpcap.lib
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/Packet.lib
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.c
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatfoe.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatmain.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatsoe.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfig.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercat.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatcoe.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatprint.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatbase.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/Utils.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/KeloDriveAPI.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/WheelConfig.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/Structs.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/VelocityPlatformController.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/EtherCATModule.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/PlatformDriver.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal_defs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal_defs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/osal.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal_defs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal_defs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_defs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_win32.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/stdint.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/inttypes.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfiglist.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercattype.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatdc.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-namedb.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Packet32.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/remote-ext.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Win32-Extensions.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/namedb.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/pcap.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/vlan.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bpf.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/sll.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/usb.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bluetooth.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/bittypes.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-stdinc.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-bpf.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/ip6_misc.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libpacket.a
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/wpcap.lib
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/Packet.lib
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libwpcap.a
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/wpcap.lib
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/Packet.lib
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.c
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatfoe.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatmain.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatsoe.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfig.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercat.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatcoe.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatprint.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatbase.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/Utils.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/KeloDriveAPI.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/WheelConfig.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/Structs.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/VelocityPlatformController.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/EtherCATModule.h
+-- Up-to-date: /home/imnotarobot/ros2_ws/install/kelo_tulip/include/kelo_tulip/PlatformDriver.h
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/launch
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/launch/example_joypad.launch.py
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/launch/example.launch.py
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/config
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile4.yaml
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/example.yaml
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile3.yaml
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile1.yaml
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile2.yaml
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/ament_index/resource_index/package_run_dependencies/kelo_tulip
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/ament_index/resource_index/parent_prefix_path/kelo_tulip
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/ament_prefix_path.sh
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/ament_prefix_path.dsv
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/path.sh
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/path.dsv
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.bash
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.sh
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.zsh
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.dsv
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.dsv
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/ament_index/resource_index/packages/kelo_tulip
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/cmake/kelo_tulipConfig.cmake
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/cmake/kelo_tulipConfig-version.cmake
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.xml
+-- Installing: /home/imnotarobot/ros2_ws/install/kelo_tulip/lib/libsoem.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsoem.a CMakeFiles/soem.dir/ethercatbase.c.o CMakeFiles/soem.dir/ethercatcoe.c.o CMakeFiles/soem.dir/ethercatconfig.c.o CMakeFiles/soem.dir/ethercatdc.c.o CMakeFiles/soem.dir/ethercatfoe.c.o CMakeFiles/soem.dir/ethercatmain.c.o CMakeFiles/soem.dir/ethercatprint.c.o CMakeFiles/soem.dir/ethercatsoe.c.o CMakeFiles/soem.dir/osal/linux/osal.c.o CMakeFiles/soem.dir/oshw/linux/nicdrv.c.o CMakeFiles/soem.dir/oshw/linux/oshw.c.o
+/usr/bin/ranlib libsoem.a
